@@ -1,0 +1,22 @@
+Week 5 - Student Information System Documentation
+
+1. Why are the variables declared as private?
+
+Variables are declared as private to protect the student information from being accessed or changed directly from outside the class. This improves data security and follows the concept of encapsulation in Object-Oriented Programming.
+
+
+2. What happens if the variables are declared public?
+
+If variables are declared public, anyone can directly access and modify the data. This can cause incorrect information and reduces the security of the program.
+
+
+3. Why do we use getters and setters?
+
+Getters and setters are used to control access to private variables. Getters are used to retrieve data, while setters are used to update data in a controlled way.
+
+
+4. Additional Variable Added:
+
+Programme
+
+The programme variable stores the student's course information, such as BIT. A setter and getter method are created to allow controlled access to this variable.
